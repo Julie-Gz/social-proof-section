@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+h1{
+    margin-bottom: 0.7rem;
+    padding: 0 2rem;
+    color: hsl(300, 43%, 22%);
+    line-height: 1;
+}
+
+h3{
+    color:hsl(0, 0%, 100%);
+    font-size: 90%;
+}
+
+p{
+    color: hsl(303, 10%, 53%);
+    font-size: 0.8rem;
+}
+
+main{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='374' height='232' xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3clinearGradient x1='100%25' y1='69.24%25' x2='9.399%25' y2='32.157%25' id='a'%3e%3cstop stop-color='%238A4389' stop-opacity='0' offset='0%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath d='M0 232c25.63-53.065 74.118-86.618 145.464-100.66 107.018-21.062 66.506-42.306 119.083-84.466C299.6 18.767 336.083 3.143 374 0v232H0z' transform='rotate(180 187 116)' fill='url(%23a)' fill-rule='evenodd' opacity='.05'/%3e%3c/svg%3e"), url("data:image/svg+xml;charset=UTF-8,%3csvg width='375' height='503' xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3clinearGradient x1='100%25' y1='69.237%25' x2='9.399%25' y2='32.159%25' id='a'%3e%3cstop stop-color='%238A4389' stop-opacity='0' offset='0%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath d='M-355 1530c74.356-153.934 215.022-251.268 422-292 310.466-61.099 192.94-122.724 345.47-245.025C514.157 911.442 620 866.116 730 857v673H-355z' transform='translate(0 -1027)' fill='url(%23a)' fill-rule='evenodd' opacity='.05'/%3e%3c/svg%3e");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+}
+
+
+#rating{
+    text-align: center; 
+}
+
+.rates{
+    margin: 2rem 0;
+}
+
+.rate{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    padding: 1rem 0;
+}
+
+.rate p{
+    font-weight: 700;
+    color:hsl(300, 43%, 22%);
+    margin-top: 0.3rem;
+}
+
+.testimony{
+    padding: 2rem;
+    margin-bottom: 1rem;
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.testimony img{
+    border-radius: 50%;
+}
+
+.testimony  p{
+    color: hsl(0, 0%, 100%);
+}
+
+.testimony .verified{
+    color: hsl(333, 80%, 67%);
+}
+
+.profile{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.profile-id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+/*Media Query*/ 
+@media screen and (min-width: 1000px){
+    body{
+        align-items: center;
+    }
+
+    h1{
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    main{
+        width: 100%;
+        padding: 5rem;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='584' height='362' xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3clinearGradient x1='100%25' y1='69.212%25' x2='9.399%25' y2='32.183%25' id='a'%3e%3cstop stop-color='%238A4389' stop-opacity='0' offset='0%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath d='M0 362c40.022-82.8 115.736-135.154 227.141-157.064 167.108-32.864 103.85-66.012 185.949-131.796C467.823 29.284 524.793 4.904 584 0v362H0z' transform='rotate(180 292 181)' fill='url(%23a)' fill-rule='evenodd' opacity='.05'/%3e%3c/svg%3e"), url("data:image/svg+xml;charset=UTF-8,%3csvg width='1085' height='673' xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3clinearGradient x1='100%25' y1='69.237%25' x2='9.399%25' y2='32.159%25' id='a'%3e%3cstop stop-color='%238A4389' stop-opacity='0' offset='0%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3cstop stop-color='%23512051' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath d='M355 800c74.356-153.934 215.022-251.268 422-292 310.466-61.099 192.94-122.724 345.47-245.025C1224.157 181.442 1330 136.116 1440 127v673H355z' transform='translate(-355 -127)' fill='url(%23a)' fill-rule='evenodd' opacity='.05'/%3e%3c/svg%3e");
+    }
+
+    .advert{
+        max-width: 30ch;
+        flex: 1 1 100%;
+    }
+
+    .advert p{
+        font-weight: 500;
+    }
+
+    #rating{
+        text-align: unset;
+        display: flex;
+        padding: 1rem 0;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .advert{
+        flex: 1 1 100%;
+    }
+
+    .rates{
+        flex: 1 1 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 0.4rem;
+        grid-template-areas: "one one one . ."
+                             ". two two two ."
+                             ". . three three three";
+    }
+
+    .one{
+       grid-area:one;
+    }
+
+    .two{
+        grid-area: two;
+    }
+
+    .three{
+        grid-area: three;   
+    }
+
+    .rate{
+        max-width: 30ch;
+        text-align: center;
+        padding: 0.5rem 1rem;
+    }
+
+    .rate p{
+        display: inline-block;
+    }
+
+    #testimonials{
+        display:flex;
+        justify-content: center;
+        gap: 1.5rem;
+        height: 250px;
+        margin-bottom: 2rem;
+    }
+
+    #testimonials img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .testimony{
+        padding: 1.7rem;
+        margin-bottom: 0;
+    }
+
+    .profile-id h3{
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+
+    #testimonials p{
+        font-size: 0.7rem;
+    }
+
+    .profile{
+        margin-bottom: 1rem;
+    }
+
+    .profile-id .verified{
+        font-weight: 500;
+    }
+
+    .up{
+        align-self: flex-start;
+    }
+
+    .middle{
+        align-self: center;
+    }
+
+    .down{
+        align-self: flex-end;
+    }
+}
